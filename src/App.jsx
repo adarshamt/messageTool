@@ -24,7 +24,7 @@ function App() {
    }
 
   return (
-     < div style={{backgroundColor:'green',width:'100vh',height:'100vh'}} className="main">
+     < div style={{backgroundColor:'green',width:'100vh',height:'100vh',padding:'100 px'}} className="main">
       <button onClick={()=>{togglehandler();}}>View Message</button>
     <p>{meessage}</p>
      </div>
